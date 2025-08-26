@@ -1,5 +1,5 @@
 # SIBET_MRI_preprocess_toolbox
-前列腺MR等影像的标准化预处理流程和工具包
+MR影像的标准化预处理流程和工具包
 MRI_resample.py：把 3D NIfTI 重采样到 spacing=[1,1,1]，图像用线性/BSpline、标签用最近邻，保留原点与方向信息。
 
 MRI_norm.py：对体数据逐层 z-norm并线性缩放到 [0,1]，输出带 _norm 后缀的新 NIfTI。
